@@ -1,7 +1,0 @@
-services:
-  ton-challenge:
-    build: .
-    ports:
-      - "3000:3000"
-    environment:
-      - FLAG=SEKAI{flag}
